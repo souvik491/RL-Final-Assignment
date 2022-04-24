@@ -1,0 +1,316 @@
+LSTM with padding
+finalgrep : accuracy valid : 84.0
+finalgrep : accuracy test : 80.11
+
+corrected
+LSTM with actual length
+
+finalgrep : accuracy valid : 82.8
+finalgrep : accuracy test : 81.08
+
+InferSent with BS 1 test: 85.75 and valid: 87.0
+
+-----------
+
+InferSent BS 5 BLSTM nonFC = 0 86.8	85.81
+InferSent BS 5 BLSTM nonFC = 1 87.0 86.0
+
+InferSent BS 5 LSTM nonFC = 0 86.8	86.12
+InferSent BS 5 LSTM nonFC = 1 86.8	86.38				selected
+
+------
+just as infersent
+BS 5 nonFC = 1 and LSTM	86.2 86.04
+
+BS 5 LSTM nonlinear ON, divide grad by 1 shrink 2
+
+														finalgrep : accuracy valid : 61.??
+														finalgrep : accuracy test  : 60.??
+
+BS 5 LSTM nonlinear ON, divide grad by batch size ** 2 shrink 2
+
+														finalgrep : accuracy valid : 83.6
+														finalgrep : accuracy test  : 81.88
+
+														without start and end tags
+
+														finalgrep : accuracy valid : 85.0
+														finalgrep : accuracy test : 83.93
+
+
+BS 5 LSTM nonlinear ON, divide grad by batch size		shrink 2
+
+														finalgrep : accuracy valid : 80.8
+														finalgrep : accuracy test  : 77.39
+
+BS 5 LSTM nonlinear ON, divide grad by batch size ** 2 shrink 1
+												
+														finalgrep : accuracy valid : 82.0
+														finalgrep : accuracy test : 80.66
+
+
+
+epoch 100
+hidden dim 2048-		critic was valid 85.0 and test 83.93
+without summary			just actor valid 63.6	  test 59.83
+
+
+epoch 100
+hidden dim 2048-		critic was valid 85.0 and test 83.93
+with summary			just actor valid 63.0	  test 60.22
+										 64.4		   60.30
+
+
+epoch 100
+hidden dim 300-			critic was valid 84.0 and test 80.52
+without summary			just actor valid 64.2	  test 58.03
+
+
+epoch 100
+hidden dim 2048-		critic was valid		85.0 	and 	 test 83.93
+with summary			just actor valid		62.2	  	 	 test 58.98
+					both actor abd critic		65.8		 	 	  63.85
+
+
+
+*****************	corrected	***********************
+
+
+1/.1 = 10
+1/sqrt(10) 0.316
+
+1/.25 = 4
+1/sqrt(4) = .5
+
+
+1/.17 = 5.88
+1/sqrt(5.88) = 0.412
+
+
+1/.15 = 6.66
+1/sqrt(6.66) = 0.387
+
+
+0.25	0.5		keep half words from both sentence			valid: 	79.6	test:	79.05
+0.15	0.6		keep  30% from both sentence				valid: 	84.8	test:	
+0.59	0.25	keep  75% from both sentence				valid: 			test:	
+
+
+
+								0.25/50%			0.15/32%			1/100%				0.59/75%		
+
+train 	:              94.82	86.0		-		86.07		-		82.18		-		86.42		-
+test 	:              84.07	81.0		-		80.52		-		78.91		-		80.72		-
+valid 	:              84.8		83.6		-		83.80		-		79.40		-		83.80		-
+
+
+********************************** need to beat 85.
+
+1. Critic Loaded delayed training
+
+togrep : results : epoch 10000 ; mean accuracy train :              94.82
+togrep : results : epoch 10000 ; mean accuracy test  :              84.07
+togrep : results : epoch 10000 ; mean accuracy valid :              84.8
+
+2. Train actor with abs 0.25-1
+
+togrep : results : epoch 10000 ; mean accuracy train :              88.8
+togrep : results : epoch 10000 ; mean accuracy test  :              82.34
+togrep : results : epoch 10000 ; mean accuracy valid :              85.6
+
+Train Critic and actor was giving very bad results
+
+3. Train critic on the response of actor with argmax ON actor update OFF
+
+togrep : results : epoch 10000 ; mean accuracy train :              95.67
+togrep : results : epoch 10000 ; mean accuracy test  :              84.57
+togrep : results : epoch 10000 ; mean accuracy valid :              86.4
+
+
+***********
+
+1. Train critic without any delay
+
+togrep : results : epoch 100000 ; mean accuracy train :              98.78
+togrep : results : epoch 100000 ; mean accuracy test  :              85.89
+togrep : results : epoch 100000 ; mean accuracy valid :              86.8
+
+2. Train actor with abs 0.25-1
+
+togrep : results : epoch 10000 ; mean accuracy train :              91.98
+togrep : results : epoch 10000 ; mean accuracy test  :              83.76
+togrep : results : epoch 10000 ; mean accuracy valid :              86.6
+
+3. Train critic on the response of actor with argmax ON actor update OFF
+
+togrep : results : epoch 10000 ; mean accuracy train :              97.4
+togrep : results : epoch 10000 ; mean accuracy test  :              84.17
+togrep : results : epoch 10000 ; mean accuracy valid :              85.6
+
+***********
+
+actor update ON, argmax ON, critic No delay, 	just actor loss		actor is keeping everything, valid: 87.0 test: 85.65
+actor update ON, argmax ON, critic No delay, 	with all loss		accuracy decreasing
+actor update ON, argmax OFF, critic No delay, 	just actor loss		actor is keeping everything,
+actor update ON, argmax OFF, critic No delay, 	with all loss		accuracy decreasing	
+
+actor update ON, argmax ON, critic with delay, 	just actor loss		actor is keeping everything	reaching towards 85.89...
+actor update ON, argmax ON, critic with delay, 	with all loss		accuracy decreasing
+actor update ON, argmax OFF, critic with delay, just actor loss		actor is keeping everything reaching towards 85.89...
+actor update ON, argmax OFF, critic with delay, with all loss		accuracy decreasing
+
+
+1		79.78	81.55
+2		84.53	85.08
+3		78.14	80.94
+4		79.85	81.06
+5		83.76	85.60
+6		76.96	78.87
+7		80.72	81.25
+8		81.29	81.81
+9		79.85	80.68
+10		79.99	80.35
+11		75.14	77.11
+12		77.55	78.99
+13		79.20	81.57
+14		75.06	76.33
+15		76.19	77.84
+16		78.14	80.21
+17		76.29	78.08
+18		80.01	81.29
+19		80.88	81.25
+20		79.05	80.80
+
+
+--------------------------------------------------------------------MSRP-----------------------------------------------------------------------
+
+standard training		73.79				lrshrink 2
+critic without delay 	75.51				lrshrink 2
+critic with delay 		74.63				lrshrink 2
+
+
+standard training		75.57				lrshrink 1
+critic without delay 	76.4				lrshrink 1
+critic with delay 		75.62				lrshrink 1
+
+actor training	lrshrink 1 selected
+--------------
+					0.25 - 1 		0.15 - 0.775		0.65-1.6
+					--------		------------		--------
+abs 	delay
+0 	 	 0 		  	72.79				72.46			72.07
+0 		 1			73.01				72.40			73.57
+1 		 0 			73.01				72.18 			72.90
+1 		 1			72.29				72.13			72.52
+
+
+critic on the response of actor
+-------------------------------
+
+0.25 - 1
+
+without delay 			74.29			
+with delay 				72.68
+
+0.15 - 0.775
+
+without delay 			73.13
+with delayed 			72.90
+
+
+- 0.15 - 0.775 abs 0 delay 1 72.79
+- 0.65 - 1.600 abs 1 delay 0 74.74
+
+
+critic + actor both: 	tried both 0.25 - 1 and 0.15 - 0.775, None of them are working 	
+------------------- 		
+			
+
+
+--------------------------------------------------------------------AI2-8grade-----------------------------------------------------------------------
+
+Standard Training
+valid: 76.21	test:74.73	lrshrink 1
+
+critic without delay 	valid: 77.33	test: 74.71		lrshrink 2
+critic with delay 		valid: 76.89	test: 74.32		lrshrink 2
+
+critic without delay 	valid: 77.01	test: 74.88		lrshrink 1
+critic with delay 		valid: 76.37	test: 74.29		lrshrink 1
+
+
+actor training	lrshrink 2 selected
+--------------
+					0.25 - 1 		0.15 - 0.775		0.65-1.6
+					--------		------------		--------
+abs 	delay
+0 	 	 0 		  	71.30				70.53			69.92
+0 		 1			68.88/73.84			66.79/73.16		65.76
+1 		 0 			68.77/59.33			70.41			70.96
+1 		 1			65.23/72.62			65.21			67.27/72.22
+
+
+validation set
+
+					0.25 - 1 		0.15 - 0.775		0.65-1.6
+					--------		------------		--------
+abs 	delay
+0 	 	 0 		  	75.2				76.57			73.91
+0 		 1			72.71/77.13			70.61/75.28		71.82
+1 		 0 			72.75/63.04			77.25			73.15
+1 		 1			74.03/78.5			70.85			74.19/76.13
+
+
+abs 0 delay 1	0.25 added an extra delay with critic 	74.07/70.95
+abs 0 delay 1	0.15 added an extra delay with critic 	72.30/69.55
+
+Critic on the response of actor Test
+
+					0.25 - 1 					0.15 - 0.775				0.65-1.6
+					--------					------------				--------
+abs 	delay
+0 	 	 0 		  	
+0 		 1			69.2/68.1/70.95				69.55/67.93/68.35		
+1 		 0 			68.26													70.97					
+1 		 1			66.55/
+
+Critic on the response of actor Valid
+
+					0.25 - 1 					0.15 - 0.775				0.65-1.6
+					--------					------------				--------
+abs 	delay
+0 	 	 0 		  	
+0 		 1			72.87/73.99/74.07			72.30/73.07/69.44		
+1 		 0 			74.96													72.54								
+1 		 1			75.76/
+
+
+--------------------------------------------------------------------SNLI---------------------------------------------------------------
+
+Standard Training 	83.47
+without delay 		84.39
+with delay 			82.28
+
+
+
+for SICKE during Inference
+
+
+bothCritic = "both_critic0.25abs_argmax.pickle"
+bothActor = "both_actor0.25abs_argmax.pickle"
+
+for MSRP during Inference
+
+bothCritic = "both_critic0.25abs_nodelay.pickle"
+bothActor = "both_actor0.25abs_nodelay.pickle"
+
+for AI during Inference
+
+parser.add_argument("--criticmodelname", type=str, default='model_best_nodelay.pickle')
+parser.add_argument("--actormodelname", type=str, default='model_actor_avg0.25.pickle')
+
+
+
+
+source activate tensorflow
+python main.py

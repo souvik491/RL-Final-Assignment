@@ -1,0 +1,1000 @@
+ 1005  mv ../Test-extract-chemicals.sh .
+ 1006  bash Test-extract-chemicals.sh
+ 1007  ls ../Test
+ 1008  more Test-extract-chemicals.sh
+ 1009  ls
+ 1010  ls ..
+ 1011  cd ..
+ 1012  pwd
+ 1013  ls
+ 1014  mv 7* Test-files/
+ 1015  ls
+ 1016  ls Test-files/
+ 1017  cd Code
+ 1018  bash Test-extract-chemicals.sh
+ 1019  ls ..
+ 1020  ls ../ExtractedOutput/
+ 1021  vim ../ExtractedOutput/7935273.offset-text 
+ 1022  more ../ExtractedOutput/7935273.offset-text 
+ 1023  ls -l ../ExtractedOutput/
+ 1024  bash Test-extract-chemicals.sh
+ 1025  ls ../ExtractedOutput/
+ 1026  ls -l ../ExtractedOutput/
+ 1027  bash Test-extract-chemicals.sh
+ 1028  ls ../ExtractedOutput/
+ 1029  ls -l ../ExtractedOutput/
+ 1030  cd ../ExtractedOutput/
+ 1031  ;s
+ 1032  ls
+ 1033  rm 'BC7T2-NLMChemTest-corpus_v1.BioC.json.*
+ 1034  '
+ 1035  rm "'BC7T2-NLMChemTest-corpus*"
+ 1036  rm "'BC7T2-NLMChemTest-corpus"*
+ 1037  rm BC*
+ 1038  ls
+ 1039  rm chemicals_outputfile.sorted 
+ 1040  rm M*
+ 1041  ls
+ 1042  cd ../Code/
+ 1043  bash Test-extract-chemicals.sh
+ 1044  ls ../ExtractedOutput/
+ 1045  ls -l ../ExtractedOutput/
+ 1046  ls
+ 1047  ls ../*.py
+ 1048  mv ../Test-extract-chemicals.py .
+ 1049  bash Test-extract-chemicals.sh
+ 1050  ls ..
+ 1051  ls ../ExtractedOutput/
+ 1052  ls -l ../ExtractedOutput/
+ 1053  mv ../Test-extract-chemicals.py .
+ 1054  ls
+ 1055  ls -l
+ 1056  rm TEST-extract-chemicals.py 
+ 1057  vim Test-extract-chemicals.sh
+ 1058  more Test-extract-chemicals.sh
+ 1059  !
+ 1060  pwd
+ 1061  ls ..
+ 1062  ls Test
+ 1063  ls -l Test
+ 1064  cd ..
+ 1065  ls
+ 1066  ls ExtractedOutput/
+ 1067  cd ExtractedOutput/
+ 1068  rm *
+ 1069  ls
+ 1070  cd ..
+ 1071  ls
+ 1072  mv Test-extract-chemicals.sh Code
+ 1073  ls Code
+ 1074  bash Code/Test-extract-chemicals.sh
+ 1075  ls ExtractedOutput/
+ 1076  ls -l ExtractedOutput/
+ 1077  ls
+ 1078  mv Test-extract-chemicals.py Code
+ 1079  bash Code/Test-extract-chemicals.sh
+ 1080  ls =l  ExtractedOutput/
+ 1081  ls -l  ExtractedOutput/
+ 1082  more ExtractedOutput/7935273.offset-text 
+ 1083  pwd
+ 1084  ls
+ 1085  mv Test-gen* Code
+ 1086  bash Code/Test-gen-ner-chemicals.sh
+ 1087  ls Code
+ 1088  mv Test-gen-ner-chemicals.sh Code
+ 1089  bash Code/Test-gen-ner-chemicals.sh
+ 1090  ls
+ 1091  ls Code
+ 1092  grep NER
+ 1093  grep NER .
+ 1094  ls
+ 1095  ls Code/
+ 1096  ls ExtractedOutput/NER
+ 1097  ls Test
+ 1098  ls Test-files/
+ 1099  ls Test-files/NER
+ 1100  ls ..
+ 1101  ls ../NER
+ 1102  rmdir ../NER
+ 1103  mv Test-gen-ner-chemicals.sh Code
+ 1104  bash Code/Test-gen-ner-chemicals.sh
+ 1105  mv Test-gen-ner-chemicals.sh Code
+ 1106  bash Code/Test-gen-ner-chemicals.sh
+ 1107  mv Test-gen-ner-chemicals.sh Code
+ 1108  bash Code/Test-gen-ner-chemicals.sh
+ 1109  more Code/Test-gen-ner-chemicals.py
+ 1110  mv Test-gen-ner-chemicals.py Code
+ 1111  bash Code/Test-gen-ner-chemicals.sh
+ 1112  mv Test-gen-ner-chemicals.py Code
+ 1113  bash Code/Test-gen-ner-chemicals.sh
+ 1114  mv Test-gen-ner-chemicals.py Code
+ 1115  bash Code/Test-gen-ner-chemicals.sh
+ 1116  ls
+ 1117  mv Test-gen-ner-chemicals.sh Code
+ 1118  mv gen-ner-chemicals.py Code
+ 1119  bash Code/Test-gen-ner-chemicals.sh
+ 1120  mv Test-gen-ner-chemicals.sh Code
+ 1121  bash Code/Test-gen-ner-chemicals.sh
+ 1122  mv Test-gen-ner-chemicals.sh Code
+ 1123  mv gen-ner-chemicals.py Code
+ 1124  bash Code/Test-gen-ner-chemicals.sh
+ 1125  ls ExtractedOutput/|wc
+ 1126  ls ExtractedOutput/
+ 1127  ls NER
+ 1128  ls -l NER
+ 1129  ls
+ 1130  mv modify-ner-chemicals.py Code
+ 1131  mv Test-modify-ner-chemicals.sh Code
+ 1132  bash Code/Test-modify-ner-chemicals.sh 
+ 1133  mv Test-modify-ner-chemicals.sh Code
+ 1134  bash Code/Test-modify-ner-chemicals.sh 
+ 1135  ls
+ 1136  mv ner-modify.py Code
+ 1137  mv Test-ner-modify.sh Code
+ 1138  bash Code/Test-ner-modify.sh 
+ 1139  ls NER
+ 1140  ls
+ 1141  ls Code
+ 1142  mv Test-find-chemicals.py Code
+ 1143  mv Test-find-chemicals.sh Code
+ 1144  bash Code/Test-find-chemicals.sh
+ 1145  mv Test-find-chemicals.sh Code
+ 1146  bash Code/Test-find-chemicals.sh
+ 1147  mv Test-find-chemicals.sh Code
+ 1148  bash Code/Test-find-chemicals.sh
+ 1149  mv Test-find-chemicals.py Code
+ 1150  bash Code/Test-find-chemicals.sh
+ 1151  cd Chemicals/
+ 1152  ls
+ 1153  ls -l
+ 1154  more chemicals
+ 1155  ls
+ 1156  more ARTICLE_LIST 
+ 1157  cd ..
+ 1158  ls
+ 1159  mv Test-find-chemicals.py Code
+ 1160  mv Test-find-chemicals.sh Code
+ 1161  cd Chemicals/
+ 1162  ls
+ 1163  rm ARTICLE_LIST 
+ 1164  rm CHEMICAL_LIST 
+ 1165  rm chemicals
+ 1166  rm chemicals.sorted 
+ 1167  ls
+ 1168  cd ..
+ 1169  bash Code/Test-find-chemicals.sh
+ 1170  ls Chemicals|wc
+ 1171  more Chemicals/7935273.chemicals 
+ 1172  more NER/7923514.bc4chemd.ner.modified.remodified 
+ 1173  more ExtractedOutput/7923514.content-text 
+ 1174  ls
+ 1175  bash Code/Test-find-chemicals.sh
+ 1176  more Chemicals/7935273.chemicals 
+ 1177  more ExtractedOutput/7872235.content-text 
+ 1178  ls
+ 1179  mv NER/Test-extract-chemicals.py Code
+ 1180  bash Code/Test-extract-chemicals.sh
+ 1181  ls
+ 1182  mv ner-modify.py Code
+ 1183  more Code/Test-extract-chemicals.sh
+ 1184  bash Code/Test-gen-ner-chemicals.sh
+ 1185  mv Test-gen-ner-chemicals.sh Code
+ 1186  bash Code/Test-gen-ner-chemicals.sh
+ 1187  ls
+ 1188  mv Test-gen-ner-chemicals.sh Code
+ 1189  bash Code/Test-gen-ner-chemicals.sh
+ 1190  ls Code
+ 1191  bash Code/Test-modify-ner-chemicals.sh 
+ 1192  bash Code/Test-ner-modify.sh 
+ 1193  ls
+ 1194  diff ner-modify.py Code/ner-modify.py 
+ 1195  ls
+ 1196  mv ner-modify.py Code
+ 1197  bash Code/Test-ner-modify.sh 
+ 1198  mv ner-modify.py Code
+ 1199  ls
+ 1200  mv ner-modify.py Code
+ 1201  cd NER
+ 1202  ls ner-modify.py 
+ 1203  rm ner-modify.py 
+ 1204  cd ..
+ 1205  bash Code/Test-ner-modify.sh 
+ 1206  ks
+ 1207  ls
+ 1208  mv ner-modify.py Code
+ 1209  bash Code/Test-ner-modify.sh 
+ 1210  ls
+ 1211  mv Test-find-chemicals.py Code
+ 1212  bash Code/Test-find-chemicals.sh
+ 1213  ls
+ 1214  ls ExtractedOutput/
+ 1215  ls
+ 1216  mv Test-find-chemicals.py Code
+ 1217  bash Code/Test-find-chemicals.sh
+ 1218  ls
+ 1219  mv Test-find-chemicals.py Code
+ 1220  bash Code/Test-find-chemicals.sh
+ 1221  ls
+ 1222  mv Test-find-chemicals.py Code
+ 1223  bash Code/Test-find-chemicals.sh
+ 1224  bash Code/Test-find-chemicals.sh > ERROR-MESSAGES
+ 1225  more Chemicals/7923514.chemicals 
+ 1226  ls
+ 1227  mv Test-merge-chemicals.py Code
+ 1228  python Code/Test-merge-chemicals.py 
+ 1229  mv Test-merge-chemicals.py Code
+ 1230  python Code/Test-merge-chemicals.py 
+ 1231  mv Test-merge-chemicals.py Code
+ 1232  python Code/Test-merge-chemicals.py 
+ 1233  mv Test-merge-chemicals.py Code
+ 1234  python Code/Test-merge-chemicals.py 
+ 1235  mv Test-merge-chemicals.py Code
+ 1236  python Code/Test-merge-chemicals.py 
+ 1237  mv Test-merge-chemicals.py Code
+ 1238  python Code/Test-merge-chemicals.py 
+ 1239  more Chemicals/7717863.chemicals 
+ 1240  mv Test-merge-chemicals.py Code
+ 1241  python Code/Test-merge-chemicals.py 
+ 1242  mv Test-merge-chemicals.py Code
+ 1243  python Code/Test-merge-chemicals.py 
+ 1244  mv Test-merge-chemicals.py Code
+ 1245  python Code/Test-merge-chemicals.py 
+ 1246  ls Chemicals/
+ 1247  ls
+ 1248  ls -l chemicals_merged 
+ 1249  more ERROR-MESSAGES 
+ 1250  ls Code
+ 1251  mv Test-find-chemicals.py Code
+ 1252  ls
+ 1253  mv Test-find-chemicals.sh Code
+ 1254  ls Code
+ 1255  bash Code/Test-find-chemicals.sh
+ 1256  mv Test-find-chemicals.py Code
+ 1257  bash Code/Test-find-chemicals.sh
+ 1258  ls
+ 1259  mv Test-find-chemicals.py Code
+ 1260  mv Test-find-chemicals.sh Code
+ 1261  bash Code/Test-find-chemicals.sh
+ 1262  ls NER
+ 1263  ls
+ 1264  ls Code
+ 1265  ls Test
+ 1266  ls
+ 1267  lsls
+ 1268  ls
+ 1269  mv new_dict_for_mesh_no_sy Code
+ 1270  bash Code/Test-find-chemicals.sh
+ 1271  mv Test-find-chemicals.py Code
+ 1272  bash Code/Test-find-chemicals.sh
+ 1273  ls
+ 1274  mv Test-find-chemicals.py Code
+ 1275  bash Code/Test-find-chemicals.sh
+ 1276  ls Code
+ 1277  ls
+ 1278  ls Code
+ 1279  mv Code/new_dict_for_mesh_no_sy .
+ 1280  ls
+ 1281  bash Code/Test-find-chemicals.sh
+ 1282  pwd
+ 1283  ls
+ 1284  mv Test-find-chemicals.py Code
+ 1285  bash Code/Test-find-chemicals.sh
+ 1286  ls
+ 1287  ls Code
+ 1288  ls ExtractedOutput/
+ 1289  ls
+ 1290  find . -name MeSh-not-found -print
+ 1291  more Code/Test-find-chemicals.sh
+ 1292  which python
+ 1293  python --versionn
+ 1294  python --version
+ 1295  python Code/Test-find-chemicals.py 7641855.bc4chemd.ner.modified.remodified
+ 1296  ls
+ 1297  mv NER/Test-find-chemicals.py Code
+ 1298  python Code/Test-find-chemicals.py 7641855.bc4chemd.ner.modified.remodified
+ 1299  ls
+ 1300  ls Test-files/
+ 1301  ls Test
+ 1302  ls
+ 1303  ls ExtractedOutput/
+ 1304  ls
+ 1305  ls NER
+ 1306  python Code/Test-find-chemicals.py NER/7641855.bc4chemd.ner.modified.remodified
+ 1307  mv NER/7641855.bc4chemd.ner.modified.remodified NER/7641855.bc4chemd.ner.modified.remodified.moved
+ 1308  mv ExtractedOutput/7641855.offset-text ExtractedOutput/7641855.offset-text.moved
+ 1309  mv NER/7641855.bc4chemd.ner.modified.remodified.moved NER/7641855.bc4chemd.ner.modified.remodified
+ 1310  python Code/Test-find-chemicals.py NER/7641855.bc4chemd.ner.modified.remodified
+ 1311  7785351
+ 1312  mv ExtractedOutput/7785351.offset-text ExtractedOutput/7785351.offset-text.moved
+ 1313  python Code/Test-find-chemicals.py NER/7785351.bc4chemd.ner.modified.remodified
+ 1314  ls ExtractedOutput/*moved
+ 1315  mv ExtractedOutput/7641855.offset-text ExtractedOutput/7641855.offset-text.moved
+ 1316  python Code/Test-find-chemicals.py NER/7785351.bc4chemd.ner.modified.remodified
+ 1317  python Code/Test-find-chemicals.py NER/7641855.bc4chemd.ner.modified.remodified
+ 1318  ls ERROR-MESSAGES 
+ 1319  more ERROR-MESSAGES 
+ 1320  bash Code/Test-find-chemicals.sh > ERROR-MESSAGES2
+ 1321  bash Code/Test-find-chemicals.sh &> ERROR-MESSAGES2
+ 1322  mv Test-find-chemicals.py Code
+ 1323  bash Code/Test-find-chemicals.sh &> ERROR-MESSAGES3
+ 1324  ls
+ 1325  more MeSH-not-found 
+ 1326  ls Code
+ 1327  ls
+ 1328  more Code/Test-find-chemicals.sh
+ 1329  ls Chemicals/
+ 1330  more Chemicals/MeSH-not-found.sorted 
+ 1331  more Chemicals/MeSH-not-found
+ 1332  ls
+ 1333  mv Test-find-chemicals.sh Code
+ 1334  mv Test-find-chemicals.py Code
+ 1335  bash Code/Test-find-chemicals.sh &> ERROR-MESSAGES4
+ 1336  mv ExtractedOutput/7245944.offset-text ExtractedOutput/7245944.offset-text.moved
+ 1337  ls
+ 1338  mv 7245944.offset-text ExtractedOutput/7245944.offset-text
+ 1339  python Code/Test-find-chemicals.py NER/7245944.bc4chemd.ner.modified.remodified
+ 1340  mv 7530786.offset-text ExtractedOutput/7530786.offset-text
+ 1341  mv ExtractedOutput/7530786.offset-text ExtractedOutput/7530786.offset-text.moved
+ 1342  mv ExtractedOutput/7530790.offset-text ExtractedOutput/7530790.offset-text.moved
+ 1343  mv ExtractedOutput/7530786.offset-text.moved ExtractedOutput/7530786.offset-text
+ 1344  mv ExtractedOutput/7530790.offset-text.moved ExtractedOutput/7530790.offset-text
+ 1345  mv ExtractedOutput/7520323.offset-text ExtractedOutput/7520323.offset-text.moved
+ 1346  mv ExtractedOutput/7520330.offset-text ExtractedOutput/7520330.offset-text.moved
+ 1347  mv ExtractedOutput/7530781.offset-text ExtractedOutput/7530781.offset-text.moved
+ 1348  ls
+ 1349  mv 7520323.offset-text ExtractedOutput/7520323.offset-text
+ 1350  mv 7520330.offset-text ExtractedOutput/7520330.offset-text
+ 1351  mv 7530781.offset-text ExtractedOutput/7530781.offset-text
+ 1352  ls
+ 1353  python Code/Test-find-chemicals.py NER/7520323.bc4chemd.ner.modified.remodified
+ 1354  python Code/Test-find-chemicals.py NER/7520330.bc4chemd.ner.modified.remodified
+ 1355  python Code/Test-find-chemicals.py NER/7530781.bc4chemd.ner.modified.remodified
+ 1356  mv ExtractedOutput/7563103.offset-text ExtractedOutput/7563103.offset-text.moved
+ 1357  mv ExtractedOutput/7563984.offset-text ExtractedOutput/7563984.offset-text.moved
+ 1358  mv ExtractedOutput/7564398.offset-text ExtractedOutput/7564398.offset-text.moved
+ 1359  ls
+ 1360  mv 7563103.offset-text ExtractedOutput/7563103.offset-text
+ 1361  mv 7563984.offset-text ExtractedOutput/7563984.offset-text
+ 1362  mv 7564398.offset-text ExtractedOutput/7564398.offset-text
+ 1363  ls
+ 1364  python Code/Test-find-chemicals.py NER/7564398.bc4chemd.ner.modified.remodified
+ 1365  python Code/Test-find-chemicals.py NER/7563103.bc4chemd.ner.modified.remodified
+ 1366  python Code/Test-find-chemicals.py NER/7563984.bc4chemd.ner.modified.remodified
+ 1367  ls ERROR-script 
+ 1368  ls -l ERROR-script 
+ 1369  chmod u+x ERROR-script 
+ 1370  ls -l ERROR-script 
+ 1371  ./ERROR-script 
+ 1372  ls
+ 1373  mv 7602226.offset-text ExtractedOutput/7602226.offset-text
+ 1374  mv 7603776.offset-text ExtractedOutput/7603776.offset-text
+ 1375  mv 7606528.offset-text ExtractedOutput/7606528.offset-text
+ 1376  ls
+ 1377  mv Test-find-chemicals.py Code
+ 1378  ls
+ 1379  mv Test-find-chemicals.py Code
+ 1380  ls -l
+ 1381  cd Code
+ 1382  ls -l
+ 1383  cd ..
+ 1384  ls
+ 1385  more new_dict_for_mesh_no_sy 
+ 1386  ls
+ 1387  ls ExtractedOutput/7602226.offset-text
+ 1388  ls ExtractedOutput/7603776.offset-text
+ 1389  ls ExtractedOutput/7606528.offset-text
+ 1390  ls ExtractedOutput/7690412.offset-text
+ 1391  mv *.offset-text ExtractedOutput
+ 1392  ls
+ 1393  ls ExtractedOutput/7690412.offset-text
+ 1394  ls ExtractedOutput/7872235.offset-text
+ 1395  ls Code
+ 1396  ls
+ 1397  ls Chemicals/
+ 1398  mv Chemicals Chemicals.saved
+ 1399  ls
+ 1400  ls Code
+ 1401  more Code/Test-find-chemicals.sh
+ 1402  bash Code/Test-find-chemicals.sh
+ 1403  bash Code/Test-find-chemicals.sh &> ERROR-MESAGES5
+ 1404  ls
+ 1405  ls Code
+ 1406  cd Chemicals
+ 1407  ls
+ 1408  more MeSH-not-found.sorted 
+ 1409  ls
+ 1410  cd ..
+ 1411  ls
+ 1412  mv chemicals_merged chemicals_merged.saved26August
+ 1413  more Code/Test-merge-chemicals.py 
+ 1414  python Code/Test-merge-chemicals.py 
+ 1415  ls
+ 1416  ls -l Test-merge-chemicals.py 
+ 1417  mv Test-merge-chemicals.py Code
+ 1418  python Code/Test-merge-chemicals.py 
+ 1419  ls Chemicals
+ 1420  rm Chemicals/MeSH-not-found*
+ 1421  python Code/Test-merge-chemicals.py 
+ 1422  ls
+ 1423  more chemicals_merged
+ 1424  cd Code
+ 1425  ls
+ 1426  mv Test-find-chemicals.py Test-find-chemicals.py.saved
+ 1427  cd ..
+ 1428  python Code/Test-find-chemicals.py 7205797.bc4chemd.ner.modified.remodified
+ 1429  python Code/Test-find-chemicals.py ../NER/7205797.bc4chemd.ner.modified.remodified
+ 1430  python Code/Test-find-chemicals.py NER/7205797.bc4chemd.ner.modified.remodified
+ 1431  python Code/Test-find-chemicals.py NER/7245944.bc4chemd.ner.modified.remodified
+ 1432  cd Code
+ 1433  ls
+ 1434  mv Test-find-chemicals.py Test-find-chemicals.py.saved.2
+ 1435  cd ..
+ 1436  mv NER/Test-find-chemicals.py Code
+ 1437  python Code/Test-find-chemicals.py NER/7245944.bc4chemd.ner.modified.remodified
+ 1438  import torch print(torch.__version__)
+ 1439  import torch print(torch.__version__
+ 1440  python -c "import torch; print(torch.__version__)"
+ 1441  python --version
+ 1442  python Code/Test-find-chemicals.py NER/7245944.bc4chemd.ner.modified.remodified
+ 1443  ls
+ 1444  ls ExtractedOutput/7245944.content-text
+ 1445  more ExtractedOutput/7245944.content-textq
+ 1446  python Code/Test-find-chemicals.py NER/7245944.bc4chemd.ner.modified.remodified
+ 1447  python Code/Test-find-chemicals.py NER/7205797.bc4chemd.ner.modified.remodified
+ 1448  ls Code
+ 1449  bash Code/Test-find-chemicals.sh &> ERROR-MESSAGES6
+ 1450  vim Code/Test-merge-chemicals.py 
+ 1451  python Code/Test-find-chemicals.py NER/7205797.bc4chemd.ner.modified.remodified
+ 1452  ls
+ 1453  more 7205797.chemicals
+ 1454  ls
+ 1455  ls Chemicals/7205797.chemicals 
+ 1456  bash Code/Test-find-chemicals.sh &> ERROR-MESSAGES7
+ 1457  mv chemicals_merged chemicals_merged.saved27August
+ 1458  python Code/Test-merge-chemicals.py 
+ 1459  cd Chemicals
+ 1460  ls
+ 1461  ls ..
+ 1462  mv MeSH* ..
+ 1463  cd ..
+ 1464  ls
+ 1465  python Code/Test-merge-chemicals.py 
+ 1466  ls
+ 1467  vim ExtractedOutput/7245944.offset-text
+ 1468  more ExtractedOutput/7245944.offset-text
+ 1469  ls
+ 1470  cd Code
+ 1471  ls
+ 1472  mv Test-extract-chemicals.py Test-extract-chemicals.py.saved
+ 1473  cd ..
+ 1474  mv ExtractedOutput/ ExtractedOutput.saved/
+ 1475  ls ExtractedOutput.saved/7245944*
+ 1476  bash Code/Test-extract-chemicals.sh
+ 1477  ls ExtractedOutput/7245944*
+ 1478  more ExtractedOutput/7245944.offset-text 
+ 1479  diff ExtractedOutput/7245944.content-text ExtractedOutput.saved/7245944.content-text 
+ 1480  diff ExtractedOutput/all.content-text ExtractedOutput.saved/7245944.all-text 
+ 1481  diff ExtractedOutput/7245944.all-text ExtractedOutput.saved/7245944.all-text 
+ 1482  ls Code
+ 1483  ls
+ 1484  bash Code/Test-find-chemicals.sh &> ERROR-MESSAGES8
+ 1485  ls
+ 1486  diff Code/Test-extract-chemicals.py Code/Test-extract-chemicals.py.saved 
+ 1487  ls -l Code/Test-find-chemicals.py
+ 1488  ls Code
+ 1489  mv Code/Test-find-chemicals.py Code/Test-find-chemicals.py.saved3
+ 1490  ls
+ 1491  ls Code
+ 1492  diff Code/Test-find-chemicals.py Code/Test-find-chemicals.py.saved3
+ 1493  python Code/Test-find-chemicals.py NER/7245944.bc4chemd.ner.modified.remodified 
+ 1494  ls Code
+ 1495  mv Code/Test-find-chemicals.py Code/Test-find-chemicals.py.saved.4
+ 1496  python Code/Test-find-chemicals.py NER/7245944.bc4chemd.ner.modified.remodified 
+ 1497  mv Code/Test-find-chemicals.py Code/Test-find-chemicals.py.saved.6
+ 1498  ls Code
+ 1499  python Code/Test-find-chemicals.py NER/7245944.bc4chemd.ner.modified.remodified 
+ 1500  ls
+ 1501  mv Test-find-chemicals.py Code
+ 1502  ls -l Code
+ 1503  ls
+ 1504  ls Chemicals/7245944.chemicals :q!
+ 1505  mv Chemicals Chemicals.saved.at.12:07
+ 1506  bash Code/Test-find-chemicals.sh &> ERROR-MESSAGES9
+ 1507  ls Code
+ 1508  diff Code/Test-find-chemicals.py.saved.6 Code-find-chemicals.py
+ 1509  diff Code/Test-find-chemicals.py.saved.6 Code/Test-find-chemicals.py
+ 1510  mv Code/Test-find-chemicals.py Code/Test-find-chemicals.py.saved.12:43
+ 1511  cp Code/Test-find-chemicals.py.saved.6 Code/Test-find-chemicals.py
+ 1512  ls
+ 1513  bash Code/Test-find-chemicals.sh &> ERROR-MESSAGES10
+ 1514  ls
+ 1515  ls -l ERR*
+ 1516  ls -l Code/Test-find-chemicals.py*
+ 1517  mv Code/Test-find-chemicals.py Code/Test-find-chemicals.py.saved.4:48pm
+ 1518  cp Code/Test-find-chemicals.py.saved.4 Code/Test-find-chemicals.py
+ 1519  python Code/Test-find-chemicals.py NER/7045422.bc4chemd.ner.modified.remodified 
+ 1520  python Code/Test-find-chemicals.py NER/7131911.bc4chemd.ner.modified.remodified 
+ 1521  python Code/Test-find-chemicals.py NER/7131916.bc4chemd.ner.modified.remodified 
+ 1522  ls Code
+ 1523  mv Code/Test-find-chemicals.py Code/Test-find-chemicals.py.5:52pm.best.so.far
+ 1524  mv Test-find-chemicals.py.saved.4 Code/Test-find-chemicals.py
+ 1525  python Code/Test-find-chemicals.py NER/7131916.bc4chemd.ner.modified.remodified 
+ 1526  ls -l Code
+ 1527  diff Test-find-chemicals.py.saved.4 Code/Test-find-chemicals.py
+ 1528  mv Test-find-chemicals.py.saved.4 Code/Test-find-chemicals.py
+ 1529  python Code/Test-find-chemicals.py NER/7131916.bc4chemd.ner.modified.remodified 
+ 1530  mv Test-find-chemicals.py.saved.4 Code/Test-find-chemicals.py
+ 1531  python Code/Test-find-chemicals.py NER/7131916.bc4chemd.ner.modified.remodified 
+ 1532  mv Test-find-chemicals.py.saved.4 Code/Test-find-chemicals.py
+ 1533  python Code/Test-find-chemicals.py NER/7131916.bc4chemd.ner.modified.remodified 
+ 1534  bash Code/Test-find-chemicals.sh &> ERROR-MESSAGES.9:30pm
+ 1535  ls
+ 1536  ls -l ERR*
+ 1537  ls -l Code/Test-find*py
+ 1538  ls -l Code/Test-find*py*
+ 1539  ls -lt ERR*
+ 1540  ls -lt Code/Test-find*py*
+ 1541  ls -l Chemicals/7245944.chemicals 
+ 1542  ls Chemicals |wc
+ 1543  ls Chemicals > Chemicals.list
+ 1544  ls NER > NER.list
+ 1545  ls NER/*remodified > NER.list
+ 1546  python Test-find-chemicals.py.saved.4 NER/7795656.bc4chemd.ner.modified.remodified 
+ 1547  ls 7795656.chemicals 
+ 1548  ls Chemicals/7795656.chemicals 
+ 1549  mv 7795656.chemicals Chemicals
+ 1550  python Test-find-chemicals.py.saved.4 NER/7828492.bc4chemd.ner.modified.remodified 
+ 1551  mv 7828492.chemicals Chemicals
+ 1552  python Test-find-chemicals.py.saved.4 NER/7830718.bc4chemd.ner.modified.remodified 
+ 1553  ls Chemicals/7830718.chemicals 
+ 1554  mv 7830718.chemicals Chemicals
+ 1555  python Test-find-chemicals.py.saved.4 NER/7865278.bc4chemd.ner.modified.remodified 
+ 1556  mv 7865278.chemicals Chemicals
+ 1557  ls Chemicals > Chemicals.list
+ 1558  ls
+ 1559  mv MeSH-not-found MeSH-not-found.old
+ 1560  mv MeSH-not-found.sorted MeSH-not-found.sorted.old
+ 1561  mv Chemicals MeSH-not-found.sorted .
+ 1562  mv Chemicals/MeSH-not-found .
+ 1563  mv Chemicals/MeSH-not-found.sorted .
+ 1564  ls
+ 1565  ls Chemicals |wc
+ 1566  mv chemicals_merged chemicals_merged.saved29August
+ 1567  ls
+ 1568  python Code/Test-merge-chemicals.py 
+ 1569  ls
+ 1570  python Code/Test-merge-chemicals.py >chemicals.numsaved
+ 1571  wc chemicals.numsaved 
+ 1572  ls -l chemicals_merged
+ 1573  python Code/Test-merge-chemicals.py
+ 1574  ls -l chemicals_merged
+ 1575  ls
+ 1576  python Test-find-chemicals.py NER/7690412.bc4chemd.ner.modified.remodified 
+ 1577  rm test-find.py 
+ 1578  python Test-find-chemicals.py NER/7690412.bc4chemd.ner.modified.remodified 
+ 1579  mv Test-find-chemicals.py Code
+ 1580  ls
+ 1581  mv Chemicals Chemicals.saved.at.2:10pm
+ 1582  bash Code/Test-find-chemicals.sh &> ERROR-MESSAGES.2:11pm
+ 1583  ls Chemicals | wc
+ 1584  python Code/Test-merge-chemicals.py 
+ 1585  cd Chemicals
+ 1586  rm MeSH-not-found
+ 1587  rm MeSH-not-found.sorted 
+ 1588  python Code/Test-merge-chemicals.py 
+ 1589  cd ..
+ 1590  python Code/Test-merge-chemicals.py 
+ 1591  ls Code
+ 1592  mv Code/Test-find-chemicals.py Code/Test-find-chemicals.py.saved.2:42pm
+ 1593  python Test-find-chemicals.py NER/7690412.bc4chemd.ner.modified.remodified 
+ 1594  more Chemicals/7690412
+ 1595  more 7690412.chemicals 
+ 1596  mv  Test-find-chemicals.py Code
+ 1597  bash Code/Test-find-chemicals.sh
+ 1598  rm Chemicals/MeSH*
+ 1599  python Code/Test-merge-chemicals.py 
+ 1600  python Test-find-chemicals.py NER/7690412.bc4chemd.ner.modified.remodified 
+ 1601  more 7690412.chemicals 
+ 1602  python Test-find-chemicals.py NER/7930967.bc4chemd.ner.modified.remodified 
+ 1603  python Test-find-chemicals.py NER/7930967.bc4chemd.ner.modified.remodified > testout
+ 1604  more testout
+ 1605  python Test-find-chemicals.py NER/7930967.bc4chemd.ner.modified.remodified > testout
+ 1606  more testout
+ 1607  python Test-find-chemicals.py NER/7930967.bc4chemd.ner.modified.remodified > testout
+ 1608  more testout 
+ 1609  python Test-find-chemicals.py NER/7930967.bc4chemd.ner.modified.remodified > testout
+ 1610  more testout
+ 1611  python Test-find-chemicals.py NER/7930967.bc4chemd.ner.modified.remodified > testout
+ 1612  more testout
+ 1613  python Test-find-chemicals.py NER/7930967.bc4chemd.ner.modified.remodified > testout
+ 1614  more testout
+ 1615  python Test-find-chemicals.py NER/7930967.bc4chemd.ner.modified.remodified > testout
+ 1616  more testout
+ 1617  python Test-find-chemicals.py NER/7930967.bc4chemd.ner.modified.remodified > testout
+ 1618  more testout
+ 1619  python Test-find-chemicals.py NER/7930967.bc4chemd.ner.modified.remodified > testout
+ 1620  more testout
+ 1621  python Test-find-chemicals.py NER/7930967.bc4chemd.ner.modified.remodified > testout
+ 1622  more testout
+ 1623  python Test-find-chemicals.py NER/7930967.bc4chemd.ner.modified.remodified 
+ 1624  ls
+ 1625  bash Code/Test-find-chemicals.sh &> ERROR-MESSAGES11
+ 1626  python Test-find-chemicals.py NER/7205803.bc4chemd.ner.modified.remodified 
+ 1627  python Test-find-chemicals.py NER/7205797.bc4chemd.ner.modified.remodified 
+ 1628  bash Code/Test-find-chemicals.sh &> ERROR-MESSAGES12
+ 1629  mv Test-find-chemicals.py Code
+ 1630  rm ERROR-MESSAGES12
+ 1631  bash Code/Test-find-chemicals.sh &> ERROR-MESSAGES12
+ 1632  ls
+ 1633  mv ExtractedOutput/Test-find-chemicals.py .
+ 1634  python Test-find-chemicals.py NER/7131944.bc4chemd.ner.modified.remodified 
+ 1635  rm NER/Test-find-chemicals.py 
+ 1636  python Test-find-chemicals.py NER/7131944.bc4chemd.ner.modified.remodified 
+ 1637  python Test-find-chemicals.py NER/7923825.bc4chemd.ner.modified.remodified 
+ 1638  mv Test-find-chemicals.py Code
+ 1639  ls
+ 1640  mv Chemicals Chemicals.saved.at.11:18
+ 1641  bash Code/Test-find-chemicals.sh &> ERROR-MESSAGES13
+ 1642  python Test-find-chemicals.py NER/7131944.bc4chemd.ner.modified.remodified 
+ 1643  python Test-find-chemicals.py NER/7916153.bc4chemd.ner.modified.remodified 
+ 1644  more Test-find-chemicals.py
+ 1645  !
+ 1646  python Test-find-chemicals.py NER/7916153.bc4chemd.ner.modified.remodified 
+ 1647  mv Test-find-chemicals.py Code
+ 1648  mv Chemicals Chemicals.saved.at.12:55pm
+ 1649  bash Code/Test-find-chemicals.sh &> ERROR-MESSAGES14
+ 1650  ls
+ 1651  ls -lt Chemicals.saved*
+ 1652  ls -ldt Chemicals.saved*
+ 1653  ls -lt ERR*
+ 1654  ls
+ 1655  mv Chemicals Chemicals.save.at.1:50pm
+ 1656  mv Chemicals.saved.at.12:55pm Chemicals
+ 1657  ls
+ 1658  ls -ldt
+ 1659  ls -ldt ./*
+ 1660  ls Chemicals
+ 1661  rm Chemicals/MeSH-not-found
+ 1662  rm Chemicals/MeSH-not-found.sorted 
+ 1663  ls Chemicals
+ 1664  python Code/Test-merge-chemicals.py 
+ 1665  ls -ld Chemicals*
+ 1666  ls
+ 1667  ls -l chemicals*
+ 1668  ls
+ 1669  ls ExtractedOutput
+ 1670  pwd
+ 1671  ls
+ 1672  mv Chemicals Chemicals.saved.22Sep.10:33am
+ 1673  cd Code
+ 1674  ls
+ 1675  mv Test-find-chemicals.py Test-find-chemicals.saved.22Sep.10:35am
+ 1676  more Test-find-chemicals.sh
+ 1677  cd ..
+ 1678  pwd
+ 1679  bash Code/Test-find-chemicals.sh &> ERROR-MESSAGES15
+ 1680  ls Chemicals
+ 1681  vim ERROR-MESSAGES15
+ 1682  more ERROR-MESSAGES15
+ 1683  bash Code/Test-find-chemicals.sh &> ERROR-MESSAGES15
+ 1684  ls Chemicals
+ 1685  ls
+ 1686  diff Chemicals/MeSH-not-found MeSH-not-found
+ 1687  diff Chemicals/MeSH-not-found MeSH-not-found|more
+ 1688  ls -l MeSH-not-found
+ 1689  ls
+ 1690  diff Chemicals/MeSH-not-found MeSH-not-found|more
+ 1691  pwd
+ 1692  ls
+ 1693  mv chemicals_merged chemicals_merged.saved22September
+ 1694  ls
+ 1695  python Code/Test-merge-chemicals.py 
+ 1696  ls
+ 1697  mv MeSH-not-found MeSH-not-found.saved22Sep
+ 1698  mv MeSH-not-found.sorted MeSH-not-found.sorted.saved22Sep
+ 1699  mv Chemicals/MeSH-not-found .
+ 1700  mv Chemicals/MeSH-not-found.sorted .
+ 1701  ls
+ 1702  python Code/Test-merge-chemicals.py 
+ 1703  ls
+ 1704  ls -l chemicals_merged
+ 1705  cd ..
+ 1706  cd Documents/
+ 1707  ls
+ 1708  cd finalRun/
+ 1709  ls
+ 1710  cd bert_code/
+ 1711  ls
+ 1712  jupyter notebook
+ 1713  cd ..
+ 1714  source activate /home/bob/anaconda3/envs
+ 1715  source activate /home/bob/anaconda3/envs/tensorflow
+ 1716  python
+ 1717  nvidia
+ 1718  nvcc
+ 1719  nvidia-smi
+ 1720  source activate
+ 1721  ipython
+ 1722  source activate
+ 1723  conda activate
+ 1724  cd ..
+ 1725  ls
+ 1726  cd ..
+ 1727  ls
+ 1728  conda activate tensorflow
+ 1729  conda info --envs
+ 1730  source activate /home/bob/anaconda3/envs/tensorflow
+ 1731  ipython
+ 1732  nvcc --version
+ 1733  pip3 show torch
+ 1734  python -c "import torch; print(torch.__version__)"
+ 1735  n
+ 1736  nvidia-si
+ 1737  nvidia-smi
+ 1738  clear
+ 1739  nvidia-smi
+ 1740  clear
+ 1741  ls
+ 1742  cd
+ 1743  cd/users/
+ 1744  cd /users/
+ 1745  cd /users
+ 1746  cd /home/bob/Desktop
+ 1747  ./pycharm.sh
+ 1748  nvidia-smi
+ 1749  source activate
+ 1750  source activate tensorflow
+ 1751  source activate 
+ 1752  sudo apt-get update
+ 1753  sudo apt-get install git
+ 1754  conda info --envs`
+ 1755  java -version
+ 1756  source activate tensorflow
+ 1757  pwd
+ 1758  source activate tensorflow
+ 1759  source activate
+ 1760  ls
+ 1761  ./activate
+ 1762  nvidia -smi
+ 1763  nvidia-smi
+ 1764  nvidia
+ 1765  nvidia-detector 
+ 1766  nvidia-smi
+ 1767  source activate /home/bob/anaconda3/envs/tensorflow/bin
+ 1768  source activate /home/bob/anaconda3/envs/tensorflow
+ 1769  python pain.py
+ 1770  python main.py
+ 1771  python
+ 1772  source activate tensorflow
+ 1773  pwd
+ 1774  /home/bob/anaconda3/envs/tensorflow/bin
+ 1775  source activate /home/bob/anaconda3/envs/tensorflow
+ 1776  pwd
+ 1777  source activate /home/bob/anaconda3/envs
+ 1778  source activate /home/bob/anaconda3/envs/tensorflow/bin
+ 1779  source activate /home/bob/anaconda3/envs/tensorflow
+ 1780  sudo apt-get update
+ 1781  sudo apt-get install git
+ 1782  git--version
+ 1783  git --version
+ 1784  cd /home/Desktop
+ 1785  cd ..
+ 1786  cd Desktop
+ 1787  ls
+ 1788  cd bob1
+ 1789  ls
+ 1790  cd Desktop/
+ 1791  pwd
+ 1792  mkdir CRAFT-POS
+ 1793  ls
+ 1794  source activate /home/bob/anaconda3/envs/tensorflow
+ 1795  cd Desktop/ProfMercer
+ 1796  ls
+ 1797  mkdir Craft
+ 1798  cd Craft
+ 1799  git clone https://github.com/UCDenver-ccp/CRAFT.git
+ 1800  which git
+ 1801  ls Cra*
+ 1802  ls /bin
+ 1803  git clone https://github.com/UCDenver-ccp/CRAFT.git
+ 1804  ls
+ 1805  cd CRAFT/
+ 1806  ls
+ 1807  cd articles
+ 1808  ls
+ 1809  cd txt
+ 1810  ls
+ 1811  more 17696610.txt
+ 1812  cd ..
+ 1813  ls
+ 1814  cd ..
+ 1815  ls
+ 1816  cd structural-annotation/
+ 1817  ls
+ 1818  cd treebank/
+ 1819  ls
+ 1820  cd penn
+ 1821  ls
+ 1822  more 17696610.tree
+ 1823  which python
+ 1824  python --version
+ 1825  pip install --user -U nltk
+ 1826  python
+ 1827  pwd
+ 1828  python
+ 1829  ls /home/bob/nltk_data/corpora/ptb
+ 1830  more /home/bob/nltk_data/corpora/ptb/allcats.txt 
+ 1831  python
+ 1832  cd ~/Desktop/ProfMercer/
+ 1833  ls
+ 1834  ls Craft
+ 1835  ls Craft/CRAFT/
+ 1836  ls Craft/CRAFT/structural-annotation/
+ 1837  python
+ 1838  export NLTK_DATA=~/Desktop/ProfMercer/Craft/CRAFT/structural-annotation/treebank/penn/
+ 1839  echo NLTK_DATA
+ 1840  echo $NLTK_DATA
+ 1841  python
+ 1842  ls nltk_data
+ 1843  ls ~/nltk_data
+ 1844  ls ~/nltk_data/corpora/
+ 1845  python
+ 1846  ls Craft/CRAFT/structural-annotation/
+ 1847  ls -l Craft/CRAFT/structural-annotation/
+ 1848  python
+ 1849  ls \$NLTK_DATA/corpora/
+ 1850  ls $NLTK_DATA/
+ 1851  ls $NLTK_DATA/corpora/
+ 1852  rm -f $NLTK_DATA/corpora/
+ 1853  rm -rf $NLTK_DATA/corpora/
+ 1854  ls $NLTK_DATA/
+ 1855  python
+ 1856  ls craft
+ 1857  pwd
+ 1858  ls
+ 1859  cd Craft/
+ 1860  pwd
+ 1861  mv CRAFT ..
+ 1862  cd ..
+ 1863  ls CRAFT/
+ 1864  ls Craft
+ 1865  rmdir Craft
+ 1866  ls CRAFT/structural-annotation/
+ 1867  ls CRAFT/structural-annotation/treebank/
+ 1868  pwd
+ 1869  ls CRAFT/
+ 1870  pwd
+ 1871  ls
+ 1872  find CRAFT-pos*
+ 1873  mv Chemicals/CRAFT-pos.py.txt .
+ 1874  ls
+ 1875  mv CRAFT-pos.py.txt CRAFT-pos.py
+ 1876  python CRAFT-pos.py 
+ 1877  pwd
+ 1878  mv CRAFT-pos.py.txt CRAFT-pos.py
+ 1879  python CRAFT-pos.py 
+ 1880  mv CRAFT-pos.py.txt CRAFT-pos.py
+ 1881  python CRAFT-pos.py 
+ 1882  export NLTK_DATA=/home/bob/Desktop/ProfMercer/CRAFT/structural-annotation/treebank/penn/
+ 1883  python CRAFT-pos.py 
+ 1884  mv CRAFT-pos.py.txt CRAFT-pos.py
+ 1885  export NLTK_DATA=/home/bob/Desktop/ProfMercer/CRAFT/structural-annotation/treebank/penn/
+ 1886  python CRAFT-pos.py 
+ 1887  mv CRAFT-pos.py.txt CRAFT-pos.py
+ 1888  python CRAFT-pos.py 
+ 1889  mv CRAFT-pos.py.txt CRAFT-pos.py
+ 1890  python CRAFT-pos.py 
+ 1891  ls CRAFT-POS
+ 1892  ls CRAFT-P
+ 1893  mkdir CRAFT-POS
+ 1894  python CRAFT-pos.py 
+ 1895  ls CRAFT-POS/
+ 1896  more CRAFT-POS/11319941.tree 
+ 1897  more CRAFT-POS/17696610.tree 
+ 1898  ls CRAFT-pos.txt
+ 1899  more CRAFT-pos.txt 
+ 1900  mv CRAFT-pos.txt CRAFT-pos.py
+ 1901  python CRAFT-pos.py 
+ 1902  mv CRAFT-pos.txt CRAFT-pos.py
+ 1903  python CRAFT-pos.py 
+ 1904  mv CRAFT-pos.txt CRAFT-pos.py
+ 1905  python CRAFT-pos.py 
+ 1906  mv CRAFT-pos.txt CRAFT-pos.py
+ 1907  python CRAFT-pos.py 
+ 1908  mv CRAFT-pos.txt CRAFT-pos.py
+ 1909  python CRAFT-pos.py 
+ 1910  ls CRAFT-POS/
+ 1911  more 17696610.pos
+ 1912  more CRAFT-POS/17696610.pos
+ 1913  mv CRAFT-pos.txt CRAFT-pos.py
+ 1914  python CRAFT-pos.py 
+ 1915  more CRAFT-POS/17696610.pos
+ 1916  mv CRAFT-pos.txt CRAFT-pos.py
+ 1917  python CRAFT-pos.py 
+ 1918  mv CRAFT-pos.txt CRAFT-pos.py
+ 1919  python CRAFT-pos.py 
+ 1920  more CRAFT-POS/17696610.pos
+ 1921  ls CRAFT/structural-annotation/treebank/penn/17696610.tree 
+ 1922  tail CRAFT-POS/17696610.pos
+ 1923  tail CRAFT/structural-annotation/treebank/penn/17696610.tree 
+ 1924  ls CRAFT-POS
+ 1925  rm CRAFT-POS/*.tree
+ 1926  ls CRAFT-POS
+ 1927  ls -l CRAFT-POS
+ 1928  ls CRAFT-POS/ | wc -l
+ 1929  ls CRAFT/structural-annotation/treebank/penn/ | wc -l
+ 1930  mv CRAFT-POS/ CRAFT-POS-save
+ 1931  mv CRAFT-pos.py CRAFT-pos.py-save
+ 1932  mv CRAFT-pos.txt CRAFT-pos.py
+ 1933  python CRAFT-pos.py 
+ 1934  mkdir CRAFT-POS
+ 1935  python CRAFT-pos.py 
+ 1936  ls -l CRAFT-POS
+ 1937  mv CRAFT-pos.txt CRAFT-pos.py
+ 1938  rm -rf CRAFT-POS
+ 1939  mv CRAFT-POS-save/ CRAFT-POS
+ 1940  ls -l CRAFT-POS/
+ 1941  pwd
+ 1942  more CRAFT-POS/17696610.pos
+ 1943  taillll CRAFT-POS/17696610.pos
+ 1944  tail CRAFT-POS/17696610.pos
+ 1945  ls 
+ 1946  ls
+ 1947  ls LREC-POS/
+ 1948  ls -l LREC-POS/
+ 1949  mv From\ POS\ tagging\ to\ dependency\ parsing\ for\ biomedical\ event\ extraction.pdf LREC-POS/
+ 1950  ls LREC-POS/
+ 1951  ls
+ 1952  ls -l LREC-POS
+ 1953  ls -lh LREC-POS
+ 1954  nvcc --version
+ 1955  torch.version.cuda
+ 1956  pyython
+ 1957  python
+ 1958  source
+ 1959  source activate
+ 1960  source activate aneemily
+ 1961  source activate anemily
+ 1962  conda info --envs
+ 1963  source activate transfformers
+ 1964  source activate transformers
+ 1965  python
+ 1966  source activate tensorrflow
+ 1967  source activate tensorflow
+ 1968  watch -n 0.5 nvidia-smi
+ 1969  pwd
+ 1970  source activate /home/bob/anaconda3/envs/tensorflow
+ 1971  pytthon
+ 1972  python
+ 1973  dppkgg --configure -a
+ 1974  dpkg --configure -a
+ 1975  sudo dpkg --configure -a
+ 1976  source activate
+ 1977  source activate f
+ 1978  conda info --envs
+ 1979  conda create -n anemily python=3.10
+ 1980  conda update -n base -c defaults conda
+ 1981  conda create -n anemily python=3.10
+ 1982  source activate anemily
+ 1983  nvcc --version
+ 1984  python3.10 -m pip install torch torchvision torchaudio
+ 1985  python3.10
+ 1986  pwd
+ 1987  pwd
+ 1988  source activate /home/bob/anaconda3/envs/tensorflow
+ 1989  python
+ 1990  source activate /home/bob/anaconda3/envs/tensorflow
+ 1991  ipython
+ 1992  clear
+ 1993  python main.py 
+ 1994  source activate
+ 1995  source activate /home/bob/anaconda3/envs/tensorflow
+ 1996  python main.py 
+ 1997  source activate /home/bob/anaconda3/envs/tensorflow
+ 1998  python main.py
+ 1999  python3 train.py
+ 2000  source activate /home/bob/anaconda3/envs/tensorflow
+ 2001  python3 train.py
+ 2002  python3 train.py --n_epochs=10
+ 2003  python3 train.py
+ 2004  history > hfp.txt
